@@ -1,15 +1,18 @@
+
+// var time;
+// var counter=0;
+// function Timer(){
+// 	document.getElementById("txt").value=counter;
+// 	counter=counter+1;
+// 	time=setTimeout(function(){ Timer() },1000);
+// }
+
 function StartGame(){
-	var beggin= document.getElementById("starbtn");
-	beggin.style.display = 'none';
-}
-
-
-var time;
-var counter=0;
-function Timer(){
-	document.getElementById("txt").value=counter;
-	counter=counter+1;
-	time=setTimeout(function(){ Timer() },1000);
+    var beggin= document.getElementById("starbtn");
+    beggin.style.display = 'none';
+    var game= document.getElementById("ingame");
+    game.style.display = 'block';
+    //Timer(); 
 }
 
 /*

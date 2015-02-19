@@ -5,17 +5,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Велики мисли 2</title>
 	<link rel="stylesheet" href="gamestyles.css">
-	<script type="text/javascript"></script>
+	<script src="gamefunctionality.js"></script>
 	
 </head>
 <body>
 	<div class="wrapper">
 		<div class="timerPlacer">
-			<p id="txt"></p>
+			<p id="txt">00:00</p>
 		</div>
 		<div class="gameUI">
-			<button id="starbtn" onclick="style.display = 'none'">START</button>
-			
+			<button id="starbtn" onclick="StartGame()">START</button>
+			<div id="ingame">
+				<div id="sentence"></div>
+				<div id="authorinfo"></div>
+				<!-- <div class="answer"> -->
+					<textarea rows="8" cols="50" id="answer" placeholder="Write your answer here!"></textarea>
+				<!-- </div> -->
+				<button id="reset" onclick="window.location.reload()">RESET</button>
+			</div>
+
 		</div>
 	</div>
 

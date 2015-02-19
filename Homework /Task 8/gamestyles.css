@@ -31,12 +31,13 @@ body{
 }
 .gameUI{
 	width: 700px;
-	height: 450px;
+	height: 480px;
 	background-color: rgba(51, 0, 0,0.9);
 	margin-top: 90px;
 	border-radius: 25px;
 	float: left;
 	overflow: hidden;
+	position: relative
 }
 #starbtn{
 	width: 100px;
@@ -53,4 +54,67 @@ body{
 #starbtn:hover{
 	cursor: pointer;
 	color: #333300;
+}
+#ingame{
+	width: 700px;
+	height: 480px;
+	display: none;
+}
+#sentence{
+	width: 600px;
+	height: 100px;
+	background-color: #333300;
+	color: white;
+	position: absolute;
+	top: 26px;
+	left: 50px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	opacity: 0.9;
+}
+#authorinfo{
+	width: 600px;
+	height: 145px;
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	background: black;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	opacity: 0.9;
+}
+/*.answer{
+	width: 500px;
+	height: 100px;
+}*/
+#answer{
+	width: 593px;
+	height: 100px;
+	position: absolute;
+	left: 50px;
+	bottom: 70px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	opacity: 0.9;
+}
+#reset{
+	width: 100px;
+	height: 50px;
+	background-color: #996666;
+	color: #330000;
+	border: 1px solid #996666;
+	border-radius: 5px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
+	position: absolute;
+	bottom: 5px;
+	right: 50px;
+}
+#reset:hover{
+	cursor: pointer;
 }
