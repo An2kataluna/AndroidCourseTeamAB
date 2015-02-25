@@ -1,2 +1,0 @@
-# AndroidCourseTeamAB
-We are awesome
